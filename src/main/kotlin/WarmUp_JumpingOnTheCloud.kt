@@ -1,19 +1,22 @@
 class WarmUp_JumpingOnTheCloud {
-    // Write your code here
-    // - lear loop using while conditon instead of fori
+
+    // - learn loop using while conditon instead of fori
+    // - while syntax help to handle re loop the array but the position can be modify
+    // - everytime value in array position 0, increase count value
+    // = if the next 2 position are still exist in array and the value if it is 0, increase position value
 
     fun solve(c: Array<Int>): Int {
         var count = -1
-        var item = 0
+        var position = 0
 
-        while (item < c.size) {
-            if (c[item] == 0) {
-                if (item + 2 < c.size && c[item+2] == 0) {
-                    item++
+        while (position < c.size) {
+            if (c[position] == 0) {
+                if (position + 2 < c.size && c[position+2] == 0) {
+                    position++
                 }
                 count++
             }
-            item++
+            position++
         }
 
         return count

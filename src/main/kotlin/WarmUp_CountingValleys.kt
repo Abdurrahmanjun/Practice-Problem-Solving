@@ -1,6 +1,7 @@
 class WarmUp_CountingValleys {
-    // Write your code here
+
     // - learn for loop with condition
+    // - will only count as valley if the last char is "U" and level are even / 0
 
     fun solve(steps: Int, path: String): Int {
         var level = 0

@@ -8,6 +8,8 @@ fun main(args: Array<String>) {
 
 class WarmUp_SalesByMatch {
     // - learn using hashset here
+    // - forloop will loop over all the array, if the value item is already in the set, it will count as pari and removed
+    // - else it will add to the set
 
     fun solve(n: Int, ar: Array<Int>) : Int {
         // Write your code here

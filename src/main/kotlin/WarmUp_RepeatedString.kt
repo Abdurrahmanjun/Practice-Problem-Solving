@@ -1,5 +1,10 @@
 class WarmUp_RepeatedString {
 
+    // - use solve function,
+    // - instead of multiple and count, we can count and multiple due to the possibility of 25% for of the test cases use n <= 10 power of 6
+    // - first loop will count how many a's in full string
+    // - second loop will count how many a's in string after modulus calculation has been perform
+
     fun solve2(s: String, n: Long): Long {
         var count : Long = 0
         val arrayChar = s.toMutableList()
