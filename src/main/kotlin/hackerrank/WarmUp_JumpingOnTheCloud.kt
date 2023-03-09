@@ -1,3 +1,5 @@
+package hackerrank
+
 class WarmUp_JumpingOnTheCloud {
 
     // - learn loop using while conditon instead of fori

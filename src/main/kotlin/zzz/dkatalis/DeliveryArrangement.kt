@@ -1,4 +1,4 @@
-package dkatalis
+package zzz.dkatalis
 
 fun main(args: Array<String>) {
     val n = readLine()!!.trim().toInt()

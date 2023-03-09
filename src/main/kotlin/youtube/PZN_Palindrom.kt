@@ -1,3 +1,5 @@
+package youtube
+
 class PZN_Palindrom {
 
     fun isPalindrom(string: String) : Boolean {

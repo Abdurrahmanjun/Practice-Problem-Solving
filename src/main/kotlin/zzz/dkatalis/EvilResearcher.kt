@@ -1,4 +1,4 @@
-package dkatalis
+package zzz.dkatalis
 
 class EvilResearcher {
 }

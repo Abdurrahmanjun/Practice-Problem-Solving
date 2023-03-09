@@ -1,4 +1,4 @@
-package vidio
+package zzz.vidio
 
 class Print_Binary_Square {
 

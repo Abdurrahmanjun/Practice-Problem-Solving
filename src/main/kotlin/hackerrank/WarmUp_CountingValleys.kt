@@ -1,3 +1,5 @@
+package hackerrank
+
 class WarmUp_CountingValleys {
 
     // - learn for loop with condition

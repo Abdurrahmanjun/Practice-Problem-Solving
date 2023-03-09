@@ -1,3 +1,5 @@
+package hackerrank
+
 class WarmUp_RepeatedString {
 
     // - use solve function,
