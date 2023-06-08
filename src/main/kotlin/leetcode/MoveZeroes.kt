@@ -29,6 +29,7 @@ class MoveZeroes {
                 index++
             }
         }
+        print(nums.joinToString(separator = ", "))
         return nums
     }
 }
