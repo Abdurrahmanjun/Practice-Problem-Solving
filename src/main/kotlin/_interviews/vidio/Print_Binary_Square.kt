@@ -1,4 +1,4 @@
-package zzz.vidio
+package _interviews.vidio
 
 class Print_Binary_Square {
 
