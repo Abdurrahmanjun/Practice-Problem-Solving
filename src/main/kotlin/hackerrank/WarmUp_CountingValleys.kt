@@ -1,4 +1,4 @@
-package hackerrank
+// package hackerrank
 
 class WarmUp_CountingValleys {
 
@@ -23,7 +23,6 @@ class WarmUp_CountingValleys {
 
         return valley
     }
-
 }
 
 fun main(args: Array<String>) {
@@ -32,5 +31,5 @@ fun main(args: Array<String>) {
     val path = readLine()!!
 
     val countingValleys = WarmUp_CountingValleys()
-    println(countingValleys.solve(steps,path))
+    println(countingValleys.solve(steps, path))
 }
